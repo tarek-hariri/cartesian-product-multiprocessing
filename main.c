@@ -76,7 +76,7 @@ int main(){
 	}
 
 	// Fork twice and divy work up between the process
-	// if outputTableSize/numProcess does not  divide evenly, make the last process (parent) also take on the remainder of the work	
+	// if outputTableSize/numProcesses does not  divide evenly, make the last process (parent) also take on the remainder of the work	
 	int numProcesses = 3; // 2 children + 1 parent
 	int pid;
 	int wstatus;
@@ -108,6 +108,6 @@ int main(){
 
 	printf("Elapsed (multiprocess): %f seconds\n", time_spent);
 
-	printOutput(shmem);
+	//printOutput(shmem);
     return 0;
 }
