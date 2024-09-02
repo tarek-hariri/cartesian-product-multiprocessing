@@ -1,7 +1,6 @@
 # cartesian-product-multiprocessing
 
 This is a proof-of-concept that aims to remedy [this issue](https://github.com/Texera/texera/issues/1915).
-I did this in C because I'm more familiar with it than Java, and this was just to hammer out my plan/idea for this fix.
 
 This only uses 3 processes at a time; this number can easily be expanded to whatever the limitations of the Texera project allow. Uses linux syscalls.
 
